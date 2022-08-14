@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your best scheduler</title>
+        <link rel="stylesheet" href="style.css" />    
+    </head>
+    <body>
+    <div class="base">
+        <div class="clockbase">
+            <h1 id="clock"></h1>
+        </div>
+        <div class="weatherbase">
+            <div id="weather">
+                <span>Loading...</span><br>
+                <span>Please Wait a moment...</span>
+            </div>
+        </div>
+        <div class="namebase">
+            <div style="display:block">
+                <form id="login" class="hidden">   
+                    <input 
+                    id = "name"
+                    required 
+                    maxlength="15" 
+                    type="text" 
+                    placeholder="Can I hear your name?" />
+                    <input type="submit" value="Enter" />
+                </form>
+            </div>
+            <h2 id="greet" class="hidden"></h2>
+        </div>
+        <div id="todolist" class="todobase hidden">
+            <div style="display:block">
+                <form id="todo_form">
+                    <input 
+                    id = "todo"
+                    required
+                    type="text" 
+                    placeholder="Would you tell me your to-do list?" />
+                </form>
+            </div>
+            <div>
+                <ul id="todo_list">To-Do List
+                </ul>
+            </div>
+        </div>
+        <div id="quote">
+            <span id="quotes"></span><br>
+            <span id="author"></span>
+        </div>    
+    </div>
+    </body>
+    <script src="Script/login.js"></script>
+    <script src="Script/clock.js"></script>
+    <script src="Script/todo.js"></script>
+    <script src="Script/background.js"></script>
+    <script src="Script/quotes.js"></script>
+    <script src="Script/weather.js"></script>
+</html>

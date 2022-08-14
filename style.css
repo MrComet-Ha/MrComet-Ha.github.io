@@ -1,0 +1,153 @@
+@font-face {
+    font-family : 'ChosunGs';
+    src : url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight : normal;
+    font-style : normal;
+}
+
+body{
+    font-family : 'ChosunGs';
+    background-color : beige;
+}
+
+
+.base{
+    display : table;
+    height : 95vh;
+    width : 88vw;
+    margin : 0 auto;
+    margin-left : 10%;
+    padding : 0 ;
+    background-size : 66% 85%;
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+.hidden{
+    display : none !important;
+}
+
+.clockbase{
+    display : table;
+    background-color: rgba(255,255,255,0.3);
+    height : 50px;
+    width : 480px;
+    margin : 0 auto;
+    margin-left : 30%;
+    margin-top : 0.3%;
+    border : 2px black;
+    border-style : solid;
+}
+
+#clock{
+    display : table-cell;
+    text-align : center;
+    vertical-align : middle;
+}
+
+.weatherbase{
+    display : table;
+    background-color : rgba(255, 255, 255, 0.3);
+    height : 35px;
+    width : 10vw;
+    margin-left : 70%;
+    margin-top : -3%;
+    border : 2px black;
+    border-style : solid;
+    text-align : center;
+    vertical-align : middle;
+}
+
+#weather{
+    display : table-cell;
+    text-align : center;
+    vertical-align : middle;
+}
+
+.namebase{
+    display : table;
+    background-color : rgba(255, 255, 255, 0.3);
+    height : 40px;
+    width : 22vw;
+    margin-left : -7.2vw;
+    margin-top : 3%;
+    border : 2px black;
+    border-style : solid;
+    text-align : center;
+    vertical-align : middle;
+}
+
+#name{
+    height : 30px;
+    width : 300px;
+    display : block;
+    margin : 0 auto;
+    text-align : center;
+}
+
+.todobase{
+    display : table;
+    vertical-align : center;
+    background-color: rgba(255,255,255,0.3);
+    height : 5vh;
+    width : 30vw;
+    margin : 0 auto;
+    margin-left :  17%;
+    border : 2px black;
+    border-style: solid;
+}
+
+#todo{
+    height : 5vh;
+    width : 25vw;
+    border : 2px black;
+    border-style : solid;
+    display : block;
+    text-align : center;
+    margin : 0 auto;
+    margin-top : 1%;
+}
+
+#todo_list{
+    list-style : none;
+    text-align : left;
+    width : 600px;
+    margin-left : 10%
+}
+
+.yet{
+    text-decoration: underline;
+}
+
+.finished{
+    text-decoration: line-through;
+}
+
+#quote{
+    display : table-cell;
+    position: absolute;
+    top : 90vh;
+    right : 10vw;
+    height : 40px;
+    width : 80vw;
+    text-align: center;
+    vertical-align:middle;
+    margin : 0 auto;
+    margin-top : 1%;
+    background-color: rgba(255,255,255,0.3);
+    border : 2px black;
+    border-style: solid;
+}
+
+#quotes{
+    font-size : 18px;
+    font-weight : bold;
+    text-align: center;
+    vertical-align:middle;
+}
+
+#author{
+    font-size : 14px;
+    text-align: center;
+    vertical-align:middle;
+}
